@@ -80,3 +80,44 @@ button {
   box-sizing: border-box;
   user-select: none;
 }
+
+@media (max-width: 720px) {
+  .container {
+    width: 300px;
+    height: 600px;
+  }
+
+  .title {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font: bold 1rem serif;
+  }
+  .input {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .input input {
+    width: 100px;
+    height: 50px;
+    margin: 0px;
+    font: bold 1rem serif;
+    text-align: center;
+  }
+
+  .input label {
+    margin-right: 30px;
+  }
+  button {
+    width: 100px;
+    height: 40px;
+  }
+  .result {
+    width: 230px;
+    height: 100px;
+    font: bold 1rem serif;
+  }
+}
